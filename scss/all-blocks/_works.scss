@@ -15,19 +15,19 @@
 
 .number-line{
     margin-top: 95px;
-    margin-left: 90px;
+    margin-left: 110px;
     display: block;
-    width: 750px;
-    height: 1px;
-    border: 2px solid #FDD6BA;
+    width: 730px;
+    height: 2px;
+    background-color: #FDD6BA;
 }
 
-.circle-st::before{
+.circle-st{
     content: "";
     position: absolute;
-    display: inline-block;
+    display: block;
     top: 112px;
-    left: 110px;
+    left: 116px;
     width: 31px;
     height: 31px;
     background-image: url(../image/svg/Oval.svg);
@@ -41,7 +41,7 @@
     position: absolute;
     display: inline-block;
     top: 112px;
-    left: 490px;
+    left: 480px;
     width: 31px;
     height: 31px;
     background-image: url(../image/svg/Oval.svg);
@@ -105,4 +105,5 @@
 .coffe__link__main{
     margin-left: 90px;
 }
+
 
